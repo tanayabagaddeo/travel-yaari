@@ -1,0 +1,94 @@
+ html{
+    scroll-behavior: smooth;
+ }
+ *{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ p{
+    font-size: 18px;
+ }
+ h1{
+    font-size: 32px;
+    font-weight: 700; 
+ }
+h2{
+    font-size: 28px;
+    font-weight: 600; 
+}
+h3{
+    font-size: 25px;
+    font-weight: 700;  
+}
+.text-teal{
+    color: #08868d;
+}
+.sticky-header{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.bg-teal{
+    background-image:linear-gradient(180deg, #121212, #08868d);
+}
+.logo{
+        font-family: cursive;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        padding: 0.2rem;
+        border-radius: 0.8rem;
+}
+a.nav-link.px-3.waves-effect.waves-light {
+    font-size: 1.3rem;
+}
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+    font-weight: 800;
+}
+.car-caption {
+    width: fit-content;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.btn-primary {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #08868d !important;
+    text-shadow: 0 5pz black;
+    box-shadow: 0px 5px 5px #141313;
+}
+.car-caption h3{
+    font-size: 50px;
+}
+.teal-box{
+    background-color: #08868d;
+    color: #fff;
+}
+.bg-grey {
+    background-color: lightgrey;
+}
+h5.card-title {
+    font-size: 1.8rem;
+    font-weight: 600 !important;
+}
+.popular-places .card {
+    border: none;
+    box-shadow: none;
+    text-align: left;
+}
+.fa-brands{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #08868d;
+    border-color: #08868d;
+    font-size: 25px;
+    font-weight: 500;
+}
